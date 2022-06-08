@@ -90,13 +90,13 @@ void loop() {
         Serial1.write('s');
         Serial2.write('s');
         Serial3.write('s');
-        Serial.print(F("\r\n展開スタート"));
+        Serial.print(F("\r\n展開スター�?"));
       }else if (PS4.getButtonPress(SQUARE)) {
         Serial.print(F("\r\nSquare"));
         Serial1.write('g');
         Serial2.write('g');
         Serial3.write('g');
-        Serial.print(F("\r\n展開終わり"));
+        Serial.print(F("\r\n展開終わ�?"));
       }else if (PS4.getButtonPress(UP)) {
         Serial1.write('a');
         Serial2.write('a');
